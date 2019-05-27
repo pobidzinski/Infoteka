@@ -1,0 +1,54 @@
+{% extends 'en/base.html' %}
+{% load static %}
+
+{% block content %}
+<main role="main">
+
+  <section class="text-center">
+    <div class="container">
+
+      <br>
+      <img class="landing-image" alt="Thumbnail [100%x225]" src="{% static 'en/images/landing_main.jpeg' %}">
+      <br>
+      <hr class="landing-hr">
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow" style="border: none;">
+            <img class="card-img-top" alt="Thumbnail [100%x225]" src="{% static 'en/images/landing_1.jpeg' %}">
+            <div class="card-body">
+              <p class="card-text">Nothing is impossible, even finding your way around a large company when you’ve just
+                started here or when something has changed.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow" style="border: none;">
+            <img class="card-img-top" alt="Thumbnail [100%x225]" src="{% static 'en/images/landing_2.jpeg' %}">
+            <div class="card-body">
+              <p class="card-text">Infoteka is one answer to all possible questions, because your head is meant for the
+                projects we work on, not for memorizing lots of formalities.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow" style="border: none;">
+            <img class="card-img-top" alt="Thumbnail [100%x225]" src="{% static 'en/images/landing_3.jpeg' %}">
+            <div class="card-body">
+              <p class="card-text">Treat Infoteka as a primary care doctor. Always visit her first when a question
+                bothers you. You can follow all the changes and new developments to keep up to date here.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </section>
+
+</main>
+
+{% endblock content %}
