@@ -24,8 +24,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container d-flex justify-content-between">
 
-            <a class="navbar-brand" href="{% url 'en:index' %}"><img src="{% static 'en/images/Infoteka_logo.png' %}"
-                    alt="" height=""></a>
+            <a class="navbar-brand" href="{% url 'en:index' %}"><img class="mb-4" style="margin-bottom: 0!important;" src="{% static 'en/images/book.png' %}" alt="" width="28" height="28"></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,10 +46,10 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="{% url 'en:publicisHome' %}">Publicis Groupe</a>
-                            <a class="dropdown-item" href="#">Publicis Commerce</a>
-                            <a class="dropdown-item" href="#">Janus</a>
+                            <a class="dropdown-item" href="{% url 'en:publicisCommerceHome' %}">Publicis Commerce</a>
+                            <a class="dropdown-item" href="{% url 'en:janusHome' %}">Janus</a>
                             <a class="dropdown-item" href="#">Strategy</a>
-                            <a class="dropdown-item" href="#">Structure</a>
+                            <a class="dropdown-item" href="{% url 'en:publicisStructureHome' %}">Structure</a>
                             <a class="dropdown-item" href="#">Back-office</a>
                             <a class="dropdown-item" href="#">Credentials</a>
                             <a class="dropdown-item" href="#">Corporate Identity</a>
@@ -67,7 +66,7 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#">Goals settings and performance review</a>
                             <a class="dropdown-item" href="#">Work Time and absence management</a>
-                            <a class="dropdown-item" href="#">Travel policy</a>
+                            <a class="dropdown-item" href="{% url 'en:TravelPolicyHome' %}">Travel policy</a>
                             <a class="dropdown-item" href="#">Finance</a>
                             <a class="dropdown-item" href="#">Human resources</a>
                             <a class="dropdown-item" href="#">Hardware & Software</a>
@@ -94,7 +93,11 @@
                 </ul>
 
             </div>
+            {% if user.is_authenticated %}
+                Hi {{ user.username }}&nbsp;<a href="{% url 'logout' %}">Logout</a>
+            {% endif %}
         </div>
+
     </nav>
 
 

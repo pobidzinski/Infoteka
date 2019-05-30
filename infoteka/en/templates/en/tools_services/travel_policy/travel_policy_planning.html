@@ -1,0 +1,99 @@
+{% extends 'en/base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+<div class="container">
+    <br>
+    <p class="lead">Return to <a href="{% url 'en:TravelPolicyHome' %}">Travel Policy</a></p>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dietCalculator">Diet
+        Calculator</button>
+
+
+
+
+
+
+
+    <!-- Diet Calculator PopUp -->
+    <div class="modal fade" id="dietCalculator" tabindex="-1" role="dialog" aria-labelledby="dietCalculatorTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="dietCalculatorLongTitle">Diet Calculator</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table style="border-collapse:separate;border-spacing:0 5px;">
+                        <tr>
+                            <td>Country:&nbsp;</td>
+                            <td><select name="Country" id="dropCountry"></select></td>
+                        </tr>
+                        <tr>
+                            <td>From:&nbsp;</td>
+                            <td><input type="datetime-local" name="dateFrom" id="dateFrom"></td>
+                        </tr>
+                        <tr>
+                            <td>To:&nbsp;</td>
+                            <td><input type="datetime-local" name="dateTo" id="dateTo"></td>
+                        </tr>
+                    </table>
+                    <hr>
+                    <p class='lead'>Number of meals</p>
+                    <table>
+                        <tr>
+                            <td>Breakfasts:</td>
+                            <td><input type="number" name="breakfastNumber" id="breakfastNumber"></td>
+                        </tr>
+                        <tr>
+                            <td>Lunches:</td>
+                            <td><input type="number" name="lunchNumber" id="lunchNumber"></td>
+                        </tr>
+                        <tr>
+                            <td>Dinners:</td>
+                            <td><input type="number" name="dinnerNumber" id="dinnerNumber"></td>
+                        </tr>
+                    </table>
+                    <hr>
+                    <p class='lead'>Diet elements</p>
+                    <table>
+                        <tr>
+                            <td>Diet for full days</td>
+                            <td id="fullDayDiet"></td>
+                        </tr>
+                        <tr>
+                            <td>Diet for partial day</td>
+                            <td id="partialDayDiet"></td>
+                        </tr>
+                        <tr>
+                            <td>Breakfasts</td>
+                            <td id="breakfastsDiet"></td>
+                        </tr>
+                        <tr>
+                            <td>Lunches</td>
+                            <td id="lunchDiet"></td>
+                        </tr>
+                        <tr>
+                            <td>Dinners</td>
+                            <td id="dinnerDiet"></td>
+                        </tr>
+                    </table>
+                    <hr>
+                    <p class='lead'>Final DIET: <span id='finalDiet'></span></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+
+<script>var json_url = "{% static 'en/js/diet_calculator.json' %}";</script>
+<script src="{% static 'en/js/diet_calculator.js' %}"></script>
+
+{% include 'en/footer.html' %}
+{% endblock content %}

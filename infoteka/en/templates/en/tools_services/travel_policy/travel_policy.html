@@ -1,0 +1,45 @@
+{% extends 'en/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container">
+    <br>
+    <h1 class="display-4">Travel Policy</h1>
+    <p class="lead">
+        << General Info on Travel Policy >> <br> <br>
+        For most common questions, please refer to <a href="{% url 'en:TravelPolicyFaqHome' %}">Travel Policy FAQ</a>.
+    </p>
+    <br>
+    <hr>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title"><a href="{% url 'en:TravelPolicyTravellerHome' %}">Traveller setup</a></h5>
+                  <p class="card-text">Everything you need to do, in order to book your travels in our company.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title"><a href="{% url 'en:TravelPolicyPlanHome' %}">Planning business trip</a></h5>
+                  <p class="card-text">Actions that you need to complete, in order to prepare business trip.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title"><a href="{% url 'en:TravelPolicyExpensesHome' %}">Expense account</a></h5>
+                  <p class="card-text">How to get refund for expenses you had during your trip.</p>
+                </div>
+              </div>
+        </div>
+      </div>
+</div>
+<br>
+
+{% include 'en/footer.html' %}
+{% endblock content %}

@@ -1,0 +1,242 @@
+[
+  {
+    "ID": 1,
+    "Country": "Afganistan/ Afghanistan",
+    "Currency": "EUR",
+    "Value": 47
+  },
+  {
+    "ID": 2,
+    "Country": "Albania/ Albania",
+    "Currency": "EUR",
+    "Value": 41
+  },
+  {
+    "ID": 3,
+    "Country": "Algieria/ Algeria",
+    "Currency": "EUR",
+    "Value": 50
+  },
+  {
+    "ID": 4,
+    "Country": "Andora/ Andorra",
+    "Currency": "EUR",
+    "Value": 50
+  },
+  {
+    "ID": 5,
+    "Country": "Angola/ Angola",
+    "Currency": "USD",
+    "Value": 61
+  },
+  {
+    "ID": 6,
+    "Country": "Arabia Saudyjska/ Saudi Arabia",
+    "Currency": "EUR",
+    "Value": 45
+  },
+  {
+    "ID": 7,
+    "Country": "Argentyna/ Argentina",
+    "Currency": "USD",
+    "Value": 50
+  },
+  {
+    "ID": 8,
+    "Country": "Armenia/ Armenia",
+    "Currency": "EUR",
+    "Value": 42
+  },
+  {
+    "ID": 9,
+    "Country": "Australia/ Australia",
+    "Currency": "AUD",
+    "Value": 88
+  },
+  {
+    "ID": 10,
+    "Country": "Austria/ Austria",
+    "Currency": "EUR",
+    "Value": 52
+  },
+  {
+    "ID": 11,
+    "Country": "Azerbejdżan/ Azerbaijan",
+    "Currency": "EUR",
+    "Value": 43
+  },
+  {
+    "ID": 12,
+    "Country": "Bangladesz/ Bangladesh",
+    "Currency": "USD",
+    "Value": 50
+  },
+  {
+    "ID": 13,
+    "Country": "Belgia/ Belgium",
+    "Currency": "EUR",
+    "Value": 48
+  },
+  {
+    "ID": 14,
+    "Country": "Białoruś/ Belarus",
+    "Currency": "EUR",
+    "Value": 42
+  },
+  {
+    "ID": 15,
+    "Country": "Bośnia i Hercegowina/ Bosnia and Herzegovina",
+    "Currency": "EUR",
+    "Value": 41
+  },
+  {
+    "ID": 16,
+    "Country": "Brazylia/ Brazil",
+    "Currency": "EUR",
+    "Value": 43
+  },
+  {
+    "ID": 17,
+    "Country": "Bułgaria/ Bulgaria",
+    "Currency": "EUR",
+    "Value": 40
+  },
+  {
+    "ID": 18,
+    "Country": "Chile/ Chile",
+    "Currency": "USD",
+    "Value": 60
+  },
+  {
+    "ID": 19,
+    "Country": "Chiny/ China",
+    "Currency": "EUR",
+    "Value": 55
+  },
+  {
+    "ID": 20,
+    "Country": "Chorwacja/ Croatia",
+    "Currency": "EUR",
+    "Value": 42
+  },
+  {
+    "ID": 21,
+    "Country": "Cypr/ Cyprus",
+    "Currency": "EUR",
+    "Value": 43
+  },
+  {
+    "ID": 22,
+    "Country": "Czechy/ (The) Czech Republic",
+    "Currency": "EUR",
+    "Value": 41
+  },
+  {
+    "ID": 23,
+    "Country": "Dania/ Denmark",
+    "Currency": "DKK",
+    "Value": 406
+  },
+  {
+    "ID": 24,
+    "Country": "Egipt/ Egypt",
+    "Currency": "USD",
+    "Value": 55
+  },
+  {
+    "ID": 25,
+    "Country": "Ekwador/ Ecuador",
+    "Currency": "USD",
+    "Value": 44
+  },
+  {
+    "ID": 26,
+    "Country": "Estonia/ Estonia",
+    "Currency": "EUR",
+    "Value": 41
+  },
+  {
+    "ID": 27,
+    "Country": "Etiopia/ Ethiopia",
+    "Currency": "USD",
+    "Value": 55
+  },
+  {
+    "ID": 28,
+    "Country": "Finlandia/ Finland",
+    "Currency": "EUR",
+    "Value": 48
+  },
+  {
+    "ID": 29,
+    "Country": "Francja/ France",
+    "Currency": "EUR",
+    "Value": 50
+  },
+  {
+    "ID": 30,
+    "Country": "Grecja/ Greece",
+    "Currency": "EUR",
+    "Value": 48
+  },
+  {
+    "ID": 31,
+    "Country": "Gruzja/ Georgia",
+    "Currency": "EUR",
+    "Value": 43
+  },
+  {
+    "ID": 32,
+    "Country": "Hiszpania/ Spain",
+    "Currency": "EUR",
+    "Value": 50
+  },
+  {
+    "ID": 33,
+    "Country": "Indie/ India",
+    "Currency": "EUR",
+    "Value": 38
+  },
+  {
+    "ID": 34,
+    "Country": "Indonezja/ Indonesia",
+    "Currency": "EUR",
+    "Value": 41
+  },
+  {
+    "ID": 35,
+    "Country": "Irak/ Iraq",
+    "Currency": "USD",
+    "Value": 60
+  },
+  {
+    "ID": 36,
+    "Country": "Iran/ Iran",
+    "Currency": "EUR",
+    "Value": 41
+  },
+  {
+    "ID": 37,
+    "Country": "Irlandia/ Ireland",
+    "Currency": "EUR",
+    "Value": 52
+  },
+  {
+    "ID": 38,
+    "Country": "Islandia/ Iceland",
+    "Currency": "EUR",
+    "Value": 56
+  },
+  {
+    "ID": 39,
+    "Country": "Izrael/ Israel",
+    "Currency": "EUR",
+    "Value": 50
+  },
+  {
+    "ID": 40,
+    "Country": "Japonia/ Japan",
+    "Currency": "JPY",
+    "Value": 7532
+  }
+]
